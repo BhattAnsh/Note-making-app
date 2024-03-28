@@ -1,0 +1,32 @@
+# Python bytecode files
+__pycache__/
+
+# Directory for Django's static files
+staticfiles/
+
+# Directory for Django's media files
+media/
+
+# SQLite database file
+db.sqlite3
+
+# Ignore environment configuration files
+.env
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Ignore Django migration files
+*/migrations/
+
+# Ignore local development configuration
+config/local.yml
+
+# Ignore Django's settings file for development
+myproject/settings/local.py
+
+# Ignore any compiled Python files
+*.pyc
